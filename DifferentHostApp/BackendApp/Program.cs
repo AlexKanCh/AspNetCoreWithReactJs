@@ -7,6 +7,18 @@ namespace BackendApp
         {
             var builder = WebApplication.CreateBuilder(args);
 
+            // Добавление CORS
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy("AllowFrontend", policy =>
+                {
+                    policy.WithOrigins("http://localhost:5173") // URL вашего фронтенда
+                          .AllowAnyHeader()
+                          .AllowAnyMethod();
+                });
+            });
+
+
             // Add services to the container.
 
             builder.Services.AddControllers();
@@ -15,6 +27,9 @@ namespace BackendApp
             builder.Services.AddSwaggerGen();
 
             var app = builder.Build();
+
+            // Использование CORS
+            app.UseCors("AllowFrontend");
 
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
