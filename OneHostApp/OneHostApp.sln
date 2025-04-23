@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35506.116 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneHostApp.Server", "OneHostApp.Server\OneHostApp.Server.csproj", "{B116944A-3D3E-4FDC-9902-6F9086CFA6A6}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "onehostapp.client", "onehostapp.client\onehostapp.client.esproj", "{DD1E0A5C-403F-4802-A634-7681FE3928AE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B116944A-3D3E-4FDC-9902-6F9086CFA6A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B116944A-3D3E-4FDC-9902-6F9086CFA6A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B116944A-3D3E-4FDC-9902-6F9086CFA6A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B116944A-3D3E-4FDC-9902-6F9086CFA6A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD1E0A5C-403F-4802-A634-7681FE3928AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD1E0A5C-403F-4802-A634-7681FE3928AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD1E0A5C-403F-4802-A634-7681FE3928AE}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{DD1E0A5C-403F-4802-A634-7681FE3928AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD1E0A5C-403F-4802-A634-7681FE3928AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD1E0A5C-403F-4802-A634-7681FE3928AE}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
