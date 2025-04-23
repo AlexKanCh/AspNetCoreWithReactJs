@@ -1,0 +1,6 @@
+@OneHostApp.Server_HostAddress = http://localhost:5225
+
+GET {{OneHostApp.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
